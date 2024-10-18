@@ -2,7 +2,6 @@ import '../category-item/category-item.styles.scss';
 
 //mainly the UI for all compnents
 const CategoryItem = ({ category }) => {
-    console.log(category);
     const { title,imageUrl }=category;
     return (
         <div className="category-container" >
